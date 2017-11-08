@@ -1,0 +1,154 @@
+body{
+	background-color: #51f7b5;
+}
+
+.navbar ul{
+	/*text-align: center;
+	color: white;
+	margin: 20px;
+	font-family: 'Modak', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 20px 10px 20px 10px;*/
+	text-align: center;
+	color: white;
+	margin: 20px;
+	font-family: 'Modak', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 10px;
+}
+
+.navbar li{
+	/*shape-margin: circle;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	font-size: 25px;*/
+	shape-margin: circle;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	margin: 5px 10px 5px 10px;
+	padding: 5px 5px 5px 5px;
+	font-size: 25px;
+	display: inline-block;
+}
+
+.inline{
+	display: inline;
+}
+	
+a:link{
+	color: black;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: black;
+	transition: all 1s;
+	text-decoration: none;
+
+}
+
+a:visited{
+	transition: all 1s;
+	text-decoration: none;
+	color: black;
+}
+
+h3{
+	text-align: center;
+	align-content: center;
+	font-family: 'Istok Web', sans-serif;
+	margin-top: 30px;
+	text-shadow: 3px 2px white;
+	font-weight: bold;
+}
+
+/*.articleslist{
+	font-family: 'Istok Web', sans-serif;
+	text-align: center;
+	display: list-item;
+	align-content: center;
+	margin-top: 5px;
+	border: none;
+	color: white;
+}
+
+.articleslist li{
+	border: none;
+}*/
+
+.dickiespic{
+	width: 200px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.byline{
+	font-family: 'Istok Web', serif;
+	margin-top: 5px;
+	color: white;
+	border: none;
+	text-align: center;
+	list-style-type: none;
+}
+
+.publishdate{
+	font-family: 'Istok Web', serif;
+	margin-top: 2px;
+	color: white;
+	border: none;
+	text-align: center;
+	list-style-type: none;
+}
+
+.dickiesarticle{
+	font-family: 'Istok Web', sans-serif;
+	color: black;
+	border: none;
+	text-align: justify;
+	list-style-type: none;
+	margin: 10px 200px 10px 200px;
+	line-height: 20px;
+}
+
+.title{
+	/*text-align: justify;
+	font-family: 'Modak', cursive;
+	font-size: 50px;
+	font-color: white;
+	padding-top: 10px;
+	padding-left: 15px;
+	text-shadow: 3px 2px white;
+*/
+	font-family: 'Modak', cursive;
+	font-size: 50px;
+	font-color: white;
+	padding-top: 10px;
+	padding-left: 15px;
+	text-shadow: 3px 2px white;
+	left: 0;
+	width: 100%;
+	position: absolute;
+}
+
+@media screen and (max-width: 475px) {
+	.navbar li{
+  	display: block;
+  }
+  	.dickiesarticle{
+  	text-align: justify;
+  	margin: 20px;
+  	}
+}
